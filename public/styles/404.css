@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  width: 100%;
+}
+h1 {
+  color: red;
+  margin: 0;
+  font-size: 100px;
+}
+p {
+  font-size: 50px;
+}
+.btn {
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

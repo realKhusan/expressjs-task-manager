@@ -1,0 +1,56 @@
+[
+  {
+    "id": "9abfab44-6d82-4394-9a2c-0d4ebd619764",
+    "title": "dsadsad",
+    "desc": "sadasdas",
+    "status": "new"
+  },
+  {
+    "title": "Kitob oqish",
+    "desc": "Har kuni kamida 30 daqiqa kitob o‘qish",
+    "status": "new",
+    "id": "88b5e1e6-4243-4ef6-abbe-0e1a45802f54"
+  },
+  {
+    "title": "Sport bilan shug‘ullanish",
+    "desc": "Ertalab yugurish mashqlarini qilish",
+    "status": "new",
+    "id": "1bee6de4-48ce-4ed7-b51d-48d085fc14b7"
+  },
+  {
+    "title": "React loyihasini tugatish",
+    "desc": "Todo list ilovasini yakunlash",
+    "status": "new",
+    "id": "e6919805-0a1d-4aec-9b2e-9216f2a28f36"
+  },
+  {
+    "title": "E-mail tekshirish",
+    "desc": "Har kuni ertalab email'larni tekshirish",
+    "status": "done",
+    "id": "bc72f43f-bef5-4236-a451-8c645183837f"
+  },
+  {
+    "title": "Portfolio sahifasi yaratish",
+    "desc": "Shaxsiy portfolioni Next.js asosida yaratish",
+    "status": "new",
+    "id": "c66ffa42-4e10-4955-91e7-a4c23d60631b"
+  },
+  {
+    "title": "Do‘stlarga javob yozish",
+    "desc": "Telegramdagi barcha xabarlarga javob yozish",
+    "status": "done",
+    "id": "497b11dc-0448-4f4f-bc52-f9a811965614"
+  },
+  {
+    "title": "Yangi texnologiyani o‘rganish",
+    "desc": "TypeScript asoslarini ko‘rib chiqish",
+    "status": "new",
+    "id": "b5a4a564-2b2b-493c-8bcd-1d2d161fed1d"
+  },
+  {
+    "title": "Strapi bilan API ulash",
+    "desc": "Frontend ilovaga Strapi backend API'sini ulash",
+    "status": "done",
+    "id": "1416fe5e-9020-43b0-87d6-281ee5ac1498"
+  }
+]

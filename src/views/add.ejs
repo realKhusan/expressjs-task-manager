@@ -1,0 +1,22 @@
+<%- include('includes/head.ejs') %>
+<body>
+  <section class="container">
+    <h1 class="title">Add New Task</h1>
+    <form action="/api/task" method="POST">
+      <label>Title:</label>
+      <input type="text" name="title" required />
+      <label>Description:</label>
+      <textarea name="desc" required></textarea>
+
+      <label>Status:</label>
+      <select name="status">
+        <option value="new">New</option>
+        <option value="done">Done</option>
+      </select>
+      <div class="button-container">
+        <button type="submit">Add Task</button>
+      </div>
+    </form>
+  </section>
+</body>
+<%- include('includes/foot.ejs') %>

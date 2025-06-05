@@ -1,0 +1,40 @@
+<%- include('includes/head.ejs') %>
+<body>
+  <section class="container">
+    <div class="header">
+      <h1 class="title">All Tasks</h1>
+      <a href="/add" class="add-btn">+ Add Task</a>
+    </div>
+    <div class="list">
+      <% if (tasks.length > 0) { for (let task of tasks) { %>
+      <div class="card">
+        <h4><%= task.title %></h4>
+        <p><strong>Description:</strong> <%= task.desc %></p>
+        <p>
+          <strong>Status:</strong>
+          <span
+            class="<%= task.status === 'done' ? 'status-done' : 'status-new' %>"
+          >
+            <%= task.status %>
+          </span>
+        </p>
+        <div class="card-actions">
+          <form action="/edit/<%= task.id %>">
+            <button class="edit-btn">Edit</button>
+          </form>
+          <form
+            action="/api/task/<%= task.id %>?_method=DELETE"
+            method="POST"
+            onsubmit="return confirm('Rostdan ham ushbu vazifani o‘chirmoqchimisiz?');"
+          >
+            <button type="submit" class="delete-btn">Delete</button>
+          </form>
+        </div>
+      </div>
+      <% }} else { %>
+      <p class="no-tasks">No tasks found.</p>
+      <% } %>
+    </div>
+  </section>
+</body>
+<%- include('includes/foot.ejs') %>
